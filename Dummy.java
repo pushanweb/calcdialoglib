@@ -2,11 +2,11 @@ package com.example.registration;
 
 public class Dummy {
     int uId;
-    String name;
+    String username;
 
-    public Dummy(int uId, String name) {
+    public Dummy(int uId, String username) {
         this.uId = uId;
-        this.name = name;
+        this.username = username;
     }
 
     public int getuId() {
@@ -18,10 +18,10 @@ public class Dummy {
     }
 
     public String getName() {
-        return name;
+        return username;
     }
 
-    public void setName(String name) {
-        this.name = name;
+    public void setName(String username) {
+        this.username = username;
     }
 }

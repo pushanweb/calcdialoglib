@@ -1,0 +1,781 @@
+[33mcommit a4c1a0494f6f36705a03ee1aaa35dadf53ebf492[m[33m ([m[1;36mHEAD -> [m[1;32mconflict[m[33m, [m[1;31morigin/conflict[m[33m)[m
+Author: Pushan Paul <pushanweb@gmail.com>
+Date:   Wed Apr 27 05:16:11 2022 +0600
+
+    Dummy java file added in conflict branch
+
+[33mcommit 66ae1a62f6692428f9a14eb4cafb6ad68f5904d0[m[33m ([m[1;31morigin/dev[m[33m)[m
+Author: maltaisn <nicolas.g.maltais@gmail.com>
+Date:   Fri Dec 17 07:54:22 2021 -0500
+
+    Change jcenter to maven central
+
+[33mcommit 810e97f333e2cd22aec5c7d4c111eca6fbf706d4[m
+Merge: 9f30300 c43055b
+Author: maltaisn <nicolas.g.maltais@gmail.com>
+Date:   Sun Mar 14 09:43:14 2021 -0400
+
+    Merge remote-tracking branch 'pawegio/patch-1' into dev
+
+[33mcommit c43055b4608f9d3a62e9bd2992d5ead4cbc26400[m
+Author: Paweł Gajda <pawegio@gmail.com>
+Date:   Sun Mar 14 10:01:31 2021 +0100
+
+    Fix form of the verb in polish translations
+    
+    "Wymazać" was infinitive form.
+
+[33mcommit 9f30300647793f9f775327182375b0d05afb289c[m
+Author: maltaisn <nicolas.g.maltais@gmail.com>
+Date:   Sun Feb 7 20:10:43 2021 -0500
+
+    Gradle update, dependencies update, artifact signing
+
+[33mcommit 2cd26c1760584cc31e77cd75aef87981a8d3e17f[m
+Author: maltaisn <nicolas.g.maltais@gmail.com>
+Date:   Mon Jul 27 14:36:19 2020 -0400
+
+    Revert navigation component compatibility changes
+
+[33mcommit 4362677e8ffb7161494fb94168dc0193c79f9459[m
+Author: maltaisn <nicolas.g.maltais@gmail.com>
+Date:   Mon Jul 27 07:50:24 2020 -0400
+
+    Updated changelog
+
+[33mcommit a1e2ce78492ed552c75b32ce44f6dddb4b30eb7d[m
+Author: maltaisn <nicolas.g.maltais@gmail.com>
+Date:   Mon Jul 27 07:48:45 2020 -0400
+
+    Read dialog bundle args for settings
+    
+    This allows for integration with the Navigation Component. CalcSettings constructor was already made public for that.
+
+[33mcommit ffbfd0ec3025ef6a72cbab70cbdcacb07cdc075b[m
+Author: maltaisn <nicolas.g.maltais@gmail.com>
+Date:   Sun Jul 26 20:15:57 2020 -0400
+
+    Update Android gradle plugin
+
+[33mcommit 54b66509f1430f3f465f06380b450d052d26bd4e[m[33m ([m[1;33mtag: v2.2.1[m[33m)[m
+Author: maltaisn <nicolas.g.maltais@gmail.com>
+Date:   Sun Jul 19 21:16:42 2020 -0400
+
+    Updated version and changelog
+
+[33mcommit 05132511a571d3a09867118d47fe08666e8bfaf3[m
+Author: devnied <mxjulien@gmail.com>
+Date:   Sun Jul 19 15:20:10 2020 +0200
+
+    Add empty bintry config
+
+[33mcommit 93514fbb1106e4b9629c44186cee5375f0317a8c[m
+Author: devnied <mxjulien@gmail.com>
+Date:   Sun Jul 19 15:08:12 2020 +0200
+
+    Fix NPE with `presenter.onErasedOnce()` due to delayed call to onErase when user long press on erase button and rotate screen.
+
+[33mcommit 9eeb457e7db991f73f63d48431f810882cb75ef7[m
+Author: maltaisn <nicolas.g.maltais@gmail.com>
+Date:   Wed May 13 16:01:05 2020 -0400
+
+    Fixed missing version code in publishing script
+
+[33mcommit 416f577b5da96250dc407e5314e8f151bd0f6fc4[m
+Author: maltaisn <nicolas.g.maltais@gmail.com>
+Date:   Fri May 1 19:19:02 2020 -0400
+
+    Added demo app icon
+
+[33mcommit c0b3f87b53b5f7aca6a81f4e171acfe7059cb8db[m
+Author: maltaisn <nicolas.g.maltais@gmail.com>
+Date:   Thu Apr 30 18:54:25 2020 -0400
+
+    Publishing script improvements
+
+[33mcommit b941b60e4fc6431a873943bc5d725e608bf54f23[m[33m ([m[1;33mtag: v2.2.0[m[33m)[m
+Author: maltaisn <nicolas.g.maltais@gmail.com>
+Date:   Wed Apr 29 19:41:27 2020 -0400
+
+    Fixed wrong screenshot
+
+[33mcommit 89fdd49da042ca15d36c17e5ea7735f53b8b4b5a[m
+Author: maltaisn <nicolas.g.maltais@gmail.com>
+Date:   Wed Apr 29 19:34:16 2020 -0400
+
+    Fixed crashes due to bad deserialization of NumberFormat
+
+[33mcommit 5057da08a4b543a331dc6529e4c6b6a11fb83802[m
+Author: maltaisn <nicolas.g.maltais@gmail.com>
+Date:   Wed Apr 29 17:42:49 2020 -0400
+
+    Removed old MainActivity code
+
+[33mcommit 41780f25ea7e2d5242b3ae2ca3b27395d75b090f[m
+Author: maltaisn <nicolas.g.maltais@gmail.com>
+Date:   Wed Apr 29 17:38:45 2020 -0400
+
+    Lowered min sdk to 14
+
+[33mcommit 0f1418fc5202d244b6e69e1b83d6ce7f927ceebf[m
+Author: maltaisn <nicolas.g.maltais@gmail.com>
+Date:   Wed Apr 29 17:28:35 2020 -0400
+
+    Updated screenshots and readme
+
+[33mcommit 7e5223db5e37845b92eba4b83a2401a8c2e7b309[m
+Author: maltaisn <nicolas.g.maltais@gmail.com>
+Date:   Wed Apr 29 16:35:19 2020 -0400
+
+    Allow initial value to be negated.
+
+[33mcommit 246184ffa412b137a89dca2e4585647f028871dc[m
+Author: maltaisn <nicolas.g.maltais@gmail.com>
+Date:   Wed Apr 29 16:22:58 2020 -0400
+
+    Added content description for the erase button
+
+[33mcommit 3d437fd41a68180edddbf499e3d77fe5150f0ddc[m
+Author: maltaisn <nicolas.g.maltais@gmail.com>
+Date:   Wed Apr 29 16:10:35 2020 -0400
+
+    Renamed a few attributes, added attrs docs
+
+[33mcommit b1bf8af21e26512af8660cc46932e6bf84da169a[m
+Author: maltaisn <nicolas.g.maltais@gmail.com>
+Date:   Wed Apr 29 15:49:35 2020 -0400
+
+    Change library styles to Material Components, demo app improvements
+    
+    Demo app styles were changed too, layout was remade and everything was rewritten in Kotlin and use ViewBinding. Now uses a Fragment instead of directly being in Activity.
+
+[33mcommit bc9fb08bc1afdece97e79f237bc60e209a38f0b2[m
+Author: maltaisn <nicolas.g.maltais@gmail.com>
+Date:   Wed Apr 29 09:57:07 2020 -0400
+
+    Build updates and cleanup, added material dependency
+
+[33mcommit bdd5aa24e8d2da10fc34a018993b5849c5bb1dec[m[33m ([m[1;33mtag: v2.1.2[m[33m)[m
+Author: maltaisn <nicolas.g.maltais@gmail.com>
+Date:   Mon Dec 16 16:00:34 2019 -0500
+
+    Project and build script clean up
+    
+    - Renamed "calcdialog" module to "lib"
+    - Removed unnecessary files in modules: gitignore, gradlew, gradle wrapper, etc
+    - Removed unused proguard configuration files
+    - Moved versions and publish info to gradle.properties
+    - Updated changelog
+    - Updated publishing scripts
+
+[33mcommit 812992c52b53219d5312bd6530a69c41774911b0[m
+Author: maltaisn <nicolas.g.maltais@gmail.com>
+Date:   Mon Dec 16 15:42:25 2019 -0500
+
+    Merge fixes and formatting
+
+[33mcommit aac45bd78c92ac21ce97b29c16e022c10d1255e6[m
+Merge: 849d1d5 eab6034
+Author: maltaisn <nicolas.g.maltais@gmail.com>
+Date:   Mon Dec 16 10:08:11 2019 -0500
+
+    Merge remote-tracking branch 'devnied/master'
+
+[33mcommit 849d1d5f9357b713096478ce69d2d0785a692ad1[m[33m ([m[1;33mtag: v2.1.1[m[33m)[m
+Author: maltaisn <nicolas.g.maltais@gmail.com>
+Date:   Sun Nov 17 08:50:16 2019 -0500
+
+    Updated changelog and release build script
+
+[33mcommit 1e35e7e74de3a49062223de1e1235b1fe1b00913[m
+Author: maltaisn <nicolas.g.maltais@gmail.com>
+Date:   Sun Nov 17 08:44:12 2019 -0500
+
+    Disabled RTL layout in dialog
+
+[33mcommit eab6034325ff5cc438a907397c48afbfde2da0e7[m
+Author: devnied <mxjulien@gmail.com>
+Date:   Sat Nov 2 19:57:58 2019 +0100
+
+    Update app compat to version 1.1.0
+
+[33mcommit adec42f1d1dc0d78c6a979ccf38b7e5e0604744b[m
+Author: devnied <mxjulien@gmail.com>
+Date:   Sat Nov 2 19:43:00 2019 +0100
+
+    add check on bundle to avoid NPE. (assert is never reach with Android)
+
+[33mcommit 493960f7124e02a9805bb563e7d76b8fe3488b6a[m
+Author: devnied <mxjulien@gmail.com>
+Date:   Fri Nov 1 23:32:10 2019 +0100
+
+    Fix wrong parcel read
+
+[33mcommit e86f3357653100bbd9abb0837c961d3188942371[m
+Author: devnied <mxjulien@gmail.com>
+Date:   Sun Sep 29 17:52:02 2019 +0200
+
+    Fix npe with currentValue
+
+[33mcommit 078e40ab13f9d88c5e1d726b0cb5aa151077070b[m
+Author: devnied <mxjulien@gmail.com>
+Date:   Sun Sep 22 23:37:48 2019 +0200
+
+    Fix npe with presenter
+
+[33mcommit f0436af4227a5d41ff0e374d0298ebf04b7f78e4[m[33m ([m[1;33mtag: v2.1.0[m[33m)[m
+Author: maltaisn <nicolas.g.maltais@gmail.com>
+Date:   Thu Sep 19 18:50:20 2019 -0400
+
+    Version bump
+
+[33mcommit 422f4938af088396a56d216918fd23b3ba280942[m
+Author: Roi Attia <roiattia.1@gmail.com>
+Date:   Thu Sep 19 20:43:40 2019 +0300
+
+    added hebrew translation
+
+[33mcommit 39e1273488d0d2f8a58a1e60c8d01b45c88f08fb[m
+Author: Julien Millau <mxjulien@gmail.com>
+Date:   Thu Aug 29 00:18:29 2019 +0200
+
+    Handle NPE with NumberFormat on some Android 9 devices
+
+[33mcommit 8e93bb54ca0e6a782a125439352da593d71301ed[m
+Author: Julien Millau <mxjulien@gmail.com>
+Date:   Wed Aug 28 23:31:51 2019 +0200
+
+    Revert "Remove parcelable format to fix NPE on Android 9"
+    
+    This reverts commit 27d294d8c777fdc12715d4426860e5cae01fa49e.
+
+[33mcommit 27d294d8c777fdc12715d4426860e5cae01fa49e[m
+Author: Julien Millau <mxjulien@gmail.com>
+Date:   Wed Aug 28 23:15:30 2019 +0200
+
+    Remove parcelable format to fix NPE on Android 9
+    
+    See https://stackoverflow.com/questions/53541154/objectinputstream-readobject-causes-roundingmode-ordinal-nullpointerexception
+
+[33mcommit c48bc75ae44cd5b9a7bb7729a83010661266e418[m
+Author: Julien Millau <mxjulien@gmail.com>
+Date:   Wed Aug 28 15:45:30 2019 +0200
+
+    Add check on NbFormat to avoid NPE on some devices
+
+[33mcommit c2daa757137cae7a946eaf46ea2825859d4e7f81[m
+Author: Julien Millau <mxjulien@gmail.com>
+Date:   Wed Aug 28 15:41:37 2019 +0200
+
+    Add check condition to avoid NPE on Parcelable Expression
+
+[33mcommit 7fd9af5ad79dbf8679d01679e77a19badaad984a[m[33m ([m[1;33mtag: v2.0.1[m[33m)[m
+Author: maltaisn <nicolas.g.maltais@gmail.com>
+Date:   Thu Aug 22 15:14:09 2019 -0400
+
+    Gradle and SDK updates
+
+[33mcommit cf3da903e104557212f2010fa2be02e06d376c60[m
+Author: Julien Millau <mxjulien@gmail.com>
+Date:   Thu Aug 22 18:54:39 2019 +0200
+
+    Workaround for "Minus sign spans multiple characters" when trying to write rtl date format to parcel
+    
+    See https://issuetracker.google.com/issues/37043137
+
+[33mcommit bac4896b77578447db0edbaff8cb1bbc4cab7b7e[m
+Author: itmammoth <itmammoth@gmail.com>
+Date:   Sat Jun 22 20:37:42 2019 +0900
+
+    Update strings.xml
+    
+    Make it natural
+
+[33mcommit 22f858b5fe7b6d87ae361a9732f87e67d7935077[m[33m ([m[1;33mtag: v2.0.0[m[33m)[m
+Author: maltaisn <nicolas.g.maltais@gmail.com>
+Date:   Sun Mar 10 14:01:05 2019 -0400
+
+    Screenshot fix
+
+[33mcommit c9c1f05c96e0f8013b32e22573834447079c339a[m
+Author: maltaisn <nicolas.g.maltais@gmail.com>
+Date:   Sun Mar 10 13:55:00 2019 -0400
+
+    Demo + screenshots
+
+[33mcommit 41ec942a6a09bca1469ec1d3919838d5f835ffeb[m
+Author: maltaisn <nicolas.g.maltais@gmail.com>
+Date:   Sun Mar 10 13:28:05 2019 -0400
+
+    Fixed expression view not hiding
+
+[33mcommit 8ee248e4878d9144117001e46eb79dbec3299b54[m
+Author: maltaisn <nicolas.g.maltais@gmail.com>
+Date:   Sun Mar 10 13:15:10 2019 -0400
+
+    Strip trailing zeroes from result
+
+[33mcommit 0a62a09b66d9cda80ffbc308763a8dc9af9333c6[m
+Author: maltaisn <nicolas.g.maltais@gmail.com>
+Date:   Fri Mar 1 10:41:32 2019 -0500
+
+    Fixed style for API < 21
+
+[33mcommit e8212cad02ebc879b058ec46afa0d106a0774313[m
+Author: maltaisn <nicolas.g.maltais@gmail.com>
+Date:   Thu Feb 28 21:32:25 2019 -0500
+
+    Division scale, equal and other fixes
+
+[33mcommit 0ff1c0c5dffb10ae93bef0f9c10f3a41726385f7[m
+Author: maltaisn <nicolas.g.maltais@gmail.com>
+Date:   Thu Feb 28 21:13:11 2019 -0500
+
+    Updated demo app
+
+[33mcommit 942b097afadf8bdb4b79bac735a365ab3f0f25e2[m
+Author: maltaisn <nicolas.g.maltais@gmail.com>
+Date:   Tue Feb 26 17:32:22 2019 -0500
+
+    Changed package name
+
+[33mcommit 7382354e6c370b5a841f853807d416dab6722e8e[m
+Author: maltaisn <nicolas.g.maltais@gmail.com>
+Date:   Tue Feb 26 17:30:29 2019 -0500
+
+    Updated copyright
+
+[33mcommit 3bf1ae351b4695680d2ccf900f80b88aee5a80b0[m
+Author: maltaisn <nicolas.g.maltais@gmail.com>
+Date:   Tue Feb 26 17:29:16 2019 -0500
+
+    Expression, NumberFormat and more
+
+[33mcommit 7b604af9309c902eaae7d8dc26515f8e8ed068ee[m
+Author: maltaisn <nicolas.g.maltais@gmail.com>
+Date:   Tue Feb 19 16:58:04 2019 -0500
+
+    Added numpad layout setting
+
+[33mcommit 1c138858aed4df85dc5c8efff468b8b45fd3124e[m
+Author: maltaisn <nicolas.g.maltais@gmail.com>
+Date:   Tue Feb 19 16:57:40 2019 -0500
+
+    Remove material dependency
+
+[33mcommit 19c851ab39ebffab902f3db913c54dcb3aaac8f3[m[33m ([m[1;33mtag: v1.4.1[m[33m)[m
+Author: Unknown <nicolas.g.maltais@gmail.com>
+Date:   Tue Jan 29 17:28:51 2019 -0500
+
+    Nullibility and style fixes
+
+[33mcommit e2d702585af2e7613f19a58a7b54964a99d63146[m
+Merge: a3186f6 090d1f8
+Author: Unknown <nicolas.g.maltais@gmail.com>
+Date:   Tue Jan 29 16:33:03 2019 -0500
+
+    Merge remote-tracking branch 'guger/master'
+
+[33mcommit 090d1f860682d2f9f8c2a788801993ca39e8ba87[m
+Author: Daniel Guger <guger.daniel@gmail.com>
+Date:   Tue Jan 29 21:19:01 2019 +0100
+
+    Hotfix: @style used as Button Style instead of ?attr theme reference, resolves #14
+
+[33mcommit f3f9180e2f88926475725d31340fc288245c9a5f[m
+Author: Daniel Guger <guger.daniel@gmail.com>
+Date:   Sat Jan 26 13:11:32 2019 +0100
+
+    Improved Material Compatibility
+
+[33mcommit a3186f65d7e1f5d1aa89370fb4ca59df45bf4c8a[m[33m ([m[1;33mtag: v1.4.0[m[33m)[m
+Author: Unknown <nicolas.g.maltais@gmail.com>
+Date:   Sun Jan 6 12:56:18 2019 -0500
+
+    Migrated to AndroidX
+
+[33mcommit f39604eb2a104c6391dc3f3b4afd52de3cd29dd0[m
+Merge: bf56091 ad60970
+Author: Unknown <nicolas.g.maltais@gmail.com>
+Date:   Sun Jan 6 12:45:43 2019 -0500
+
+    Merge branch 'androix'
+
+[33mcommit ad6097094349f28acfcefcf59001bcd10f4b30de[m
+Author: Daniel Guger <guger.daniel@gmail.com>
+Date:   Sun Jan 6 14:29:19 2019 +0100
+
+    Updated Component versions, AndroidX-Migration (Closes #12)
+
+[33mcommit bf560919ce12ae36fa63656737afc53dd144c805[m
+Merge: aa3db22 c2d175e
+Author: maltaisn <33690959+maltaisn@users.noreply.github.com>
+Date:   Sun Dec 30 17:38:48 2018 -0500
+
+    Merge pull request #10 from guger/master
+    
+    Improved de-Translation
+
+[33mcommit c2d175ed243305756434d11aa85e1ea0437749bd[m
+Author: Daniel Guger <guger.daniel@gmail.com>
+Date:   Sun Dec 30 19:50:01 2018 +0100
+
+    Improved de-Translation
+
+[33mcommit aa3db224abe56f9d525072f3efe47528812aac85[m
+Author: Unknown <nicolas.g.maltais@gmail.com>
+Date:   Sat Sep 22 07:58:38 2018 -0400
+
+    Removed outdated javadoc
+
+[33mcommit 21e7a71a9998eea3c18699de5b2702f71df187fb[m[33m ([m[1;33mtag: v1.3.1[m[33m)[m
+Author: Unknown <nicolas.g.maltais@gmail.com>
+Date:   Fri Sep 21 22:45:29 2018 -0400
+
+    Fixed library dependencies not added in pom file
+
+[33mcommit 7d5c8772b4946424173035b5893ba51cb9d71fcb[m
+Author: Unknown <nicolas.g.maltais@gmail.com>
+Date:   Fri Sep 21 21:13:21 2018 -0400
+
+    Replaced implementation with api
+
+[33mcommit 03f0dd53e7946765fa09cd1a4bec9ddd5fc5c4d4[m
+Author: maltaisn <nicolas.g.maltais@gmail.com>
+Date:   Tue Sep 18 19:18:52 2018 -0400
+
+    Retroactively applied .gitignore
+
+[33mcommit f355b5f551001be2312be11a4081a541d24ab3fe[m
+Merge: e3d2551 08e6d46
+Author: Unknown <nicolas.g.maltais@gmail.com>
+Date:   Tue Sep 18 19:08:01 2018 -0400
+
+    Merge remote-tracking branch 'calcdialoglib/master'
+
+[33mcommit e3d25519c4cda4d8abfe32847eaaec91c1a88833[m
+Author: Unknown <nicolas.g.maltais@gmail.com>
+Date:   Tue Sep 18 19:06:15 2018 -0400
+
+    v1.3.0
+
+[33mcommit 08e6d46b8a9d96ef2c845e6836956f23c286842c[m[33m ([m[1;33mtag: v1.3.0[m[33m)[m
+Author: Unknown <nicolas.g.maltais@gmail.com>
+Date:   Tue Sep 18 19:06:15 2018 -0400
+
+    v1.3.0
+
+[33mcommit a43cf6829e52d7bfafdf4c997598417d785ba34f[m
+Author: Unknown <nicolas.g.maltais@gmail.com>
+Date:   Tue Sep 18 18:58:04 2018 -0400
+
+    Merge fixes
+
+[33mcommit f212ddb6b49b2bb52dc777751dab6754ca0347ca[m
+Merge: c6c2c89 a27a663
+Author: Unknown <nicolas.g.maltais@gmail.com>
+Date:   Tue Sep 18 18:47:52 2018 -0400
+
+    Merge remote-tracking branch 'Guiorgy/master'
+
+[33mcommit a27a6639829a0241275a3200a0c4d68774687427[m
+Author: Guiorgy <Guiorgy123@gmail.com>
+Date:   Tue Sep 18 20:11:20 2018 +0400
+
+    `preventLeadingZeroes` & `stripTrailingZeroes` 'true' by default
+    
+    made them enabled by default, andremovedtheability to change that (as it seems meaningless anyways)
+
+[33mcommit c6c2c89a663a3b6a0f4db10ddc6b3d2a82462801[m
+Author: Unknown <nicolas.g.maltais@gmail.com>
+Date:   Tue Sep 18 08:22:47 2018 -0400
+
+    Fixed merge
+
+[33mcommit aeba74f665c95cd5bef79065b70f4e68441dc00f[m
+Merge: be0c557 e28a703
+Author: Unknown <nicolas.g.maltais@gmail.com>
+Date:   Mon Sep 17 13:57:00 2018 -0400
+
+    Merge branch 'guiorgy'
+
+[33mcommit e28a7037068d6d28e5f50939313780965877823d[m
+Author: Guiorgy <Guiorgy123@gmail.com>
+Date:   Mon Sep 17 18:08:52 2018 +0400
+
+    fixed "-0"
+    
+    if value was a negative decimal between 0 and -1, after erasing digits after the decimal separator it would leave "-0"
+
+[33mcommit 4007e6fd9ea7978e586dd6ca1484a9f48f86ff31[m
+Author: Guiorgy <Guiorgy123@gmail.com>
+Date:   Mon Sep 17 18:03:58 2018 +0400
+
+    decimalSep instead of static "."
+
+[33mcommit 07d9dca1c71aebf41ba9f10389e8cebf9e8826ee[m
+Author: Guiorgy <Guiorgy123@gmail.com>
+Date:   Mon Sep 17 17:57:18 2018 +0400
+
+    added preventLeadingZeroes
+    
+    if preventLeadingZeroes is set to true (and it will be by default), then it will prevent the user from typing 0 when it already is 0. In other words s**t like this won't happen: 00012.3
+
+[33mcommit 17f49b68555579083d609788080d33c800dbb3ff[m
+Merge: be0c557 d759b0a
+Author: Unknown <nicolas.g.maltais@gmail.com>
+Date:   Sun Sep 16 21:03:30 2018 -0400
+
+    Merge remote-tracking branch 'calcdialoglib/master'
+
+[33mcommit be0c5572317cf33e107d0519181beb228d178fd1[m
+Author: Unknown <nicolas.g.maltais@gmail.com>
+Date:   Sun Sep 16 20:53:28 2018 -0400
+
+    Renaming and fixes
+    
+    Fixed answer btn being shown on top of equal btn
+
+[33mcommit d759b0ac31c899bc20eeef791a489a10cca40a8a[m[33m ([m[1;33mtag: v1.2.0[m[33m)[m
+Author: Unknown <nicolas.g.maltais@gmail.com>
+Date:   Sun Sep 16 20:53:28 2018 -0400
+
+    Renaming and fixes
+    
+    Fixed answer btn being shown on top of equal btn
+
+[33mcommit 45cb9b3f14a83b55444d9de34d807e5ee7e8f8f4[m
+Author: Unknown <nicolas.g.maltais@gmail.com>
+Date:   Sun Sep 16 20:36:21 2018 -0400
+
+    Merge fixes
+
+[33mcommit 44c3a30de7cbe4815a835303397026072d0ad4ad[m
+Merge: 5b20121 886db73
+Author: Unknown <nicolas.g.maltais@gmail.com>
+Date:   Sun Sep 16 19:07:07 2018 -0400
+
+    Merge remote-tracking branch 'devnied/master'
+
+[33mcommit 5b201211bbb723b7449570d514f53667658fa94a[m
+Merge: af6d34a 184e6bc
+Author: Unknown <nicolas.g.maltais@gmail.com>
+Date:   Sun Sep 16 18:51:32 2018 -0400
+
+    Merge remote-tracking branch 'Sosig77/master'
+
+[33mcommit af6d34affa88e3d9ec85ead8a77966485056ecb4[m
+Author: Unknown <nicolas.g.maltais@gmail.com>
+Date:   Sun Sep 16 18:50:42 2018 -0400
+
+    Refactored code, fixed OK btn
+
+[33mcommit 184e6bc91135257407669c34e6ecdb27ffe6f739[m
+Author: Sosig77 <40459099+Sosig77@users.noreply.github.com>
+Date:   Sun Sep 16 14:00:02 2018 +0300
+
+    Added lithuanian translations to dialog res folder
+
+[33mcommit 6dc7c639b8176e56a05ccba75d2aaa11f8743595[m
+Author: Sosig77 <40459099+Sosig77@users.noreply.github.com>
+Date:   Sun Sep 16 13:59:11 2018 +0300
+
+    Added app translations to lithuanian
+
+[33mcommit 886db739686700993f9c4340ebda074348678c3b[m
+Author: devnied <mxjulien@gmail.com>
+Date:   Thu Aug 30 17:23:08 2018 +0200
+
+    Explicitly define a callback to dialog
+
+[33mcommit f2d3e2b1b275fdbd0ff5489bec7489a3a5de90c3[m
+Merge: 4b23b0e dc37157
+Author: devnied <mxjulien@gmail.com>
+Date:   Wed Aug 29 16:56:41 2018 +0200
+
+    Merge remote-tracking branch 'origin/master'
+
+[33mcommit 4b23b0e7016bdd0937cde708494e68fc4ec0fad1[m
+Author: devnied <mxjulien@gmail.com>
+Date:   Wed Aug 29 16:56:32 2018 +0200
+
+    Add dialog reference Id when multiple dialog can be displayed
+
+[33mcommit dc371574fe683606c482d17adcae85d91164e547[m
+Merge: 1335503 2d258a4
+Author: Julien Millau <mxjulien@gmail.com>
+Date:   Wed Aug 29 15:15:28 2018 +0200
+
+    Merge pull request #2 from devnied/translation
+    
+    Add some translation
+
+[33mcommit 2d258a4edfcc65d4b972f9349f3bf1b497a7a47e[m
+Author: devnied <mxjulien@gmail.com>
+Date:   Wed Aug 29 15:12:09 2018 +0200
+
+    Add some translation
+
+[33mcommit 1335503017adb2937d59829dd832af59e387b46a[m
+Merge: 2b5483b b063146
+Author: Julien Millau <mxjulien@gmail.com>
+Date:   Wed Aug 29 13:00:57 2018 +0200
+
+    Merge pull request #1 from devnied/improvement
+    
+    Add compatibility to API 16
+
+[33mcommit b063146bd22490e0396e000f0b5ca1597d6ff305[m
+Author: devnied <mxjulien@gmail.com>
+Date:   Wed Aug 29 12:53:57 2018 +0200
+
+    Upgrade operation background color
+
+[33mcommit 71b6869be110c9ce6cffb4763c624367f7af0842[m
+Author: devnied <mxjulien@gmail.com>
+Date:   Mon Aug 27 03:01:42 2018 +0200
+
+    Fix duplicate fragment and add dismissAllowingStateLoss
+    Add support of API < 21
+
+[33mcommit a98dca49296f4d0c9d855d5016bd37af24c89aad[m
+Author: devnied <mxjulien@gmail.com>
+Date:   Sun Aug 26 16:52:27 2018 +0200
+
+    FIx margin on application sample for version < 21
+
+[33mcommit c5fc55905ebde069f8fcca81798bc6ef8f5ac6f8[m
+Author: devnied <mxjulien@gmail.com>
+Date:   Sun Aug 26 16:21:45 2018 +0200
+
+    Fix Dialog style for pre-lolipop Android version
+
+[33mcommit effd9cee9c278d59afc086f938d99a3ea1ff74af[m
+Author: devnied <mxjulien@gmail.com>
+Date:   Sat Aug 25 16:45:45 2018 +0200
+
+    Change min sdk version to 16
+    Add option to hide sign button
+
+[33mcommit 2b5483ba995cc4fd230463d1a347a7eb294ac02f[m
+Author: maltaisn <33690959+maltaisn@users.noreply.github.com>
+Date:   Thu Aug 23 15:24:45 2018 -0400
+
+    Update README.md
+
+[33mcommit e95230401e67af0342e17db6a20439f250685c27[m
+Author: maltaisn <nicolas.g.maltais@gmail.com>
+Date:   Sun May 13 08:31:12 2018 -0400
+
+    Updated dependency
+
+[33mcommit ad9be7448a4fdb85c3cb1954eb33a3ddd670f139[m[33m ([m[1;33mtag: v1.1.2[m[33m)[m
+Author: maltaisn <nicolas.g.maltais@gmail.com>
+Date:   Sun May 13 08:28:49 2018 -0400
+
+    v.1.1.2
+
+[33mcommit 6a7c481417188ff507341ec630d902a07ba020f4[m[33m ([m[1;33mtag: v1.1.1[m[33m)[m
+Author: maltaisn <nicolas.g.maltais@gmail.com>
+Date:   Wed Apr 18 21:39:43 2018 -0400
+
+    Updated
+
+[33mcommit 97aa301aa46344a16993033b85f4e9b8ab0b1ab4[m[33m ([m[1;33mtag: v1.1.0[m[33m)[m
+Author: maltaisn <nicolas.g.maltais@gmail.com>
+Date:   Wed Mar 14 21:40:34 2018 -0400
+
+    v1.1
+    
+    See changelog
+
+[33mcommit 2e67b57baa596cdb9f5caf8c8837e73672afead9[m
+Author: maltaisn <33690959+maltaisn@users.noreply.github.com>
+Date:   Sun Mar 11 17:58:06 2018 -0400
+
+    v1.0.2 + screenshots
+
+[33mcommit a30a3e04d75ad4eb102dd846f61013011a23fc32[m
+Merge: b0866c7 9c97976
+Author: maltaisn <nicolas.g.maltais@gmail.com>
+Date:   Sun Mar 11 17:56:49 2018 -0400
+
+    Merge remote-tracking branch 'calcdialoglib/master'
+
+[33mcommit b0866c7a258e0b5958d96a1033011295fac3fb03[m
+Author: maltaisn <nicolas.g.maltais@gmail.com>
+Date:   Sun Mar 11 17:56:45 2018 -0400
+
+    Added screenshots
+
+[33mcommit 31407830e61446525fd512ac71d622cf8a23e051[m[33m ([m[1;33mtag: v1.0.2[m[33m)[m
+Author: maltaisn <nicolas.g.maltais@gmail.com>
+Date:   Sun Mar 11 17:56:38 2018 -0400
+
+    v1.0.2
+    
+    See changelog
+
+[33mcommit 9c979763a2d8012a57968144b10ba587fdf9edca[m
+Author: maltaisn <33690959+maltaisn@users.noreply.github.com>
+Date:   Sun Mar 11 14:32:46 2018 -0400
+
+    Added title
+
+[33mcommit b9269f127467854d40d0831a8e1cb026d09be80a[m
+Author: maltaisn <33690959+maltaisn@users.noreply.github.com>
+Date:   Sun Mar 11 14:32:28 2018 -0400
+
+    Added tutorial
+
+[33mcommit b3ea6e9703bd24f890518f2f7a035c77c415b94c[m[33m ([m[1;33mtag: v1.0.1[m[33m)[m
+Author: Unknown <nicolas.g.maltais@gmail.com>
+Date:   Sat Mar 10 23:26:10 2018 -0400
+
+    v1.0.1
+    
+    See changelog
+
+[33mcommit 18c048fc21c4012c684654840740d900d79c7392[m
+Author: maltaisn <33690959+maltaisn@users.noreply.github.com>
+Date:   Sat Mar 10 22:24:33 2018 -0500
+
+    Updated for 1.0.1
+
+[33mcommit e329c66cce08cb3b6604c271208027926e39f009[m
+Author: maltaisn <33690959+maltaisn@users.noreply.github.com>
+Date:   Sat Mar 10 22:24:04 2018 -0500
+
+    Updated for 1.0.1
+
+[33mcommit bbc9b96cee1770bddfd77b04f36d0efd3a4d6752[m[33m ([m[1;33mtag: v1.0.0[m[33m)[m
+Author: maltaisn <33690959+maltaisn@users.noreply.github.com>
+Date:   Sat Mar 10 18:28:48 2018 -0500
+
+    Update README.md
+
+[33mcommit 7c8fc838279040f64b443f111e35040d8638b3df[m
+Author: maltaisn <33690959+maltaisn@users.noreply.github.com>
+Date:   Sat Mar 10 18:25:37 2018 -0500
+
+    Create CHANGELOG.md
+
+[33mcommit 92dc890824e594a4e68439736525de49d449044e[m
+Author: maltaisn <33690959+maltaisn@users.noreply.github.com>
+Date:   Sat Mar 10 18:12:04 2018 -0500
+
+    Create LICENSE
+
+[33mcommit 8ca88417c70480127431ccd811361b73309b2711[m
+Author: Unknown <nicolas.g.maltais@gmail.com>
+Date:   Sat Mar 10 18:07:52 2018 -0500
+
+    Initial commit
+    
+    v1.0.0
+
+[33mcommit 8c3eaba0eb6c278b8af13e70da9f550ff42c0b8e[m
+Author: Unknown <nicolas.g.maltais@gmail.com>
+Date:   Sat Mar 10 18:05:07 2018 -0500
+
+    Initial commit
